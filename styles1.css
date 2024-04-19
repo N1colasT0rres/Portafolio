@@ -1,3 +1,5 @@
+Sigue sin verse
+
 @keyframes scale-up {
     to { scale: 1.5; }
 }
@@ -271,3 +273,57 @@ section:nth-of-type(3) {
     margin: 10px auto; /* Centra el texto horizontalmente y agrega un espacio en la parte superior e inferior */
     padding: 0 40px; /* Agrega espacio en los lados del texto */
 }
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 20px 0; /* Espaciado interno */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header h1 {
+    margin: 0; /* Eliminar margen predeterminado */
+}
+
+/* Estilos para los enlaces del menú de navegación */
+#navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0; /* Alinear el menú de navegación en la parte superior */
+}
+
+#navbar ul {
+    list-style-type: none; /* Quitar viñetas de la lista */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+#navbar ul li {
+    margin-right: 20px; /* Espaciado entre los elementos del menú */
+}
+
+#navbar ul li:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+#navbar ul li a {
+    color: #fff; /* Letras blancas */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    transition: color 0.3s; /* Transición suave del color al pasar el ratón */
+}
+
+#navbar ul li a:hover {
+    color: #09f; /* Cambiar el color al pasar el ratón */
+}
+
+
+
+
